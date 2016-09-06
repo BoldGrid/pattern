@@ -1,0 +1,145 @@
+/*------------------------------------------------------------------------
+# Pattern Library Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Header
+-----------------------------------------------*/
+#bgpl-header .bgpl-branding {
+	margin-top: 20px;
+}
+#bgpl-header .bgpl-site-title {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.5em;
+	margin-top: 10px;
+}
+
+/*-----------------------------------------------
+## Tabs
+-----------------------------------------------*/
+#bgpl-navigation {
+	border-bottom: none;
+	margin-top: 30px;
+}
+#bgpl-navigation > li > a {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	margin-right: 3px;
+	padding: 7px 35px;
+}
+#bgpl-navigation > li:hover > a,
+#bgpl-navigation > li:focus > a,
+#bgpl-navigation > li.active > a, 
+#bgpl-navigation > li.active > a:focus, 
+#bgpl-navigation > li.active > a:hover {
+	background-color: #f95b26;
+}
+
+/*-----------------------------------------------
+## Key
+-----------------------------------------------*/
+#bgpl-content .bgpl-key {
+	background: #f2f2f2;
+	border-top: 2px solid #333;
+	height: 50px;
+	margin-top: 1px;
+	margin-bottom: 30px;
+	padding-top: 17px;
+}
+#bgpl-content .bgpl-key ul {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1;
+	list-style: none;
+}
+#bgpl-content .bgpl-key li {
+	display: inline;
+	padding-right: 40px;
+}
+#bgpl-content .key-boldgrid::before,
+#bgpl-content .key-wordpress::before,
+#bgpl-content .key-bootstrap::before {
+	border-radius: 50%;
+	content: '';
+	height: 12px;
+	margin-top: 1px;
+	margin-left: -20px;
+	position: absolute;
+	width: 12px;
+}
+#bgpl-content .background-boldgrid,
+#bgpl-content .key-boldgrid::before {
+	background: #f95b26;
+}
+#bgpl-content .background-wordpress,
+#bgpl-content .key-wordpress::before {
+	background: #21759b;
+}
+#bgpl-content .background-bootstrap,
+#bgpl-content .key-bootstrap::before {
+	background: #6f5499;
+}
+#bgpl-content .hr-boldgrid,
+#bgpl-content .hr-wordpress,
+#bgpl-content .hr-bootstrap {
+	clear: both;
+	margin-bottom: 50px;
+}
+#bgpl-content .hr-boldgrid {
+	border-top: 1px solid #f95b26;
+}
+#bgpl-content .hr-wordpress {
+	border-top: 1px solid #21759b;
+}
+#bgpl-content .hr-bootstrap {
+	border-top: 1px solid #6f5499;
+}
+
+/*-----------------------------------------------
+## Content
+-----------------------------------------------*/
+#bgpl-content .bgpl-section {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+#bgpl-content .bgpl-title-background,
+#bgpl-content .bgpl-variables {
+	float: left;
+}
+#bgpl-content .bgpl-title-background {
+	padding: 0 7px 9px;
+}
+#bgpl-content h2.bgpl-title {
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	margin: 7px 0 -4px;
+	text-transform: none;
+}
+#bgpl-content .bgpl-variables {
+	color: #999;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	margin: 3px 0 0 10px;
+}
+#bgpl-content .color-circle {
+	border-radius: 50%;
+	float: left;
+	height: 75px;
+	margin-right: 25px;
+	width: 75px;
+}
+#bgpl-content .color-circle p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1;
+	margin-top: 30px;
+	text-align: center;
+}
