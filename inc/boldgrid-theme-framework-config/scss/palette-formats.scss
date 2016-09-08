@@ -4,50 +4,51 @@
 .palette-primary {
 
 	/*-----------------------------------------------
-	## 1
+	## Pattern Library
 	-----------------------------------------------*/
 	.background-color-1 {
 		background-color: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
-
-	/*-----------------------------------------------
-	## 2
-	-----------------------------------------------*/
 	.background-color-2 {
 		background-color: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
-
-	/*-----------------------------------------------
-	## 3
-	-----------------------------------------------*/
 	.background-color-3 {
 		background-color: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
-
-	/*-----------------------------------------------
-	## 4
-	-----------------------------------------------*/
 	.background-color-4 {
 		background-color: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-
-	/*-----------------------------------------------
-	## 5
-	-----------------------------------------------*/
 	.background-color-5 {
 		background-color: $palette-primary_5;
 		color: $text-contrast-palette-primary_5;
 	}
-
-	/*-----------------------------------------------
-	## Neutral
-	-----------------------------------------------*/
 	.background-color-6 {
 		background-color: $palette-primary-neutral-color;
 		color: $text-contrast-palette-primary-neutral-color;
 	}
+
+	/*-----------------------------------------------
+	## Sections
+	-----------------------------------------------*/
+	.background-primary {
+		background-color: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	.background-secondary {
+		background-color: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.background-tertiary {
+		background-color: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+
+
+
+
+
 }

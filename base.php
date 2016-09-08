@@ -84,7 +84,7 @@ $configs = $boldgrid_theme_framework->get_configs();
 						<hr class="hr-bootstrap" />
 						
 						<!-- Lead Paragraphs -->
-			    			<p class=".lead">Donec sit amet facilisis lacus, ac cursus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur ipsum, in laoreet metus.</p>
+			    			<p class="lead">Donec sit amet facilisis lacus, ac cursus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur ipsum, in laoreet metus.</p>
 			    		<!-- /Lead Paragraphs -->
 			    	</div>
 
@@ -178,6 +178,18 @@ $configs = $boldgrid_theme_framework->get_configs();
 			    	</div>
 
 				    <div class="bgpl-section">
+			    		<div class="bgpl-title-background background-bootstrap">
+			    			<h2 class="bgpl-title">Horizontal Rules</h2>
+			    		</div>
+				    	<p class="bgpl-variables">hr</p>
+						<hr class="hr-bootstrap" />
+						
+						<!-- Horizontal Rules -->
+							<hr />
+						<!-- /Horizontal Rules -->
+			    	</div>
+
+				    <div class="bgpl-section">
 			    		<div class="bgpl-title-background background-boldgrid">
 			    			<h2 class="bgpl-title">Buttons</h2>
 			    		</div>
@@ -227,6 +239,7 @@ $configs = $boldgrid_theme_framework->get_configs();
 					    	<li class="key-bootstrap">Bootstrap</li>
 					    </ul>
 			    	</div>
+
 			    	<div class="bgpl-section">
 			    		<div class="bgpl-title-background background-boldgrid">
 			    			<h2 class="bgpl-title">Navbars</h2>
@@ -376,7 +389,7 @@ $configs = $boldgrid_theme_framework->get_configs();
 
 				    	<!-- Profiles -->
 				    		<div class="mod-profile">
-								<p><img src="https://source.unsplash.com/150x250/?pineapple" alt="pineapple" /></p>
+								<p><img src="https://source.unsplash.com/200x200/?pineapple" alt="pineapple" /></p>
 								<h3>David Jones</h3>
 								<h4>Fitness Trainer</h4>	
 							</div>
@@ -423,6 +436,119 @@ $configs = $boldgrid_theme_framework->get_configs();
 				    		<p>Example</p>
 						<!-- /Tags -->
 				    </div>
+
+				    <div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Testimonials Horizontal</h2>
+			    		</div>
+				   		<p class="bgpl-variables">.mod-testimonial-horizontal</p>
+				    	<hr class="hr-boldgrid" />
+
+				    	<!-- Testimonials Horizontal -->
+				    		<div class="mod-testimonial-horizontal">
+				    			<div class="row">
+				    				<div class="col-md-9">
+				    					<p>The center is amazing. It is like camp for anyone that wants to get healthy, eat right, and stay strong.</p>
+				    				</div>
+				    				<div class="col-md-3">
+				    					<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+				    					<h3>Caroline Kesler</h3>
+				    				</div>
+				    			</div>
+				    		</div>
+						<!-- /Testimonials Horizontal -->
+				    </div>
+
+				    <div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Testimonials Vertical</h2>
+			    		</div>
+				   		<p class="bgpl-variables">.mod-testimonial-vertical</p>
+				    	<hr class="hr-boldgrid" />
+
+						<!-- Column -->
+				    	<div class="row">
+				    		<div class="col-md-4">
+
+				    	<!-- Testimonials Vertical -->
+				    		<div class=".mod-testimonial-vertical">
+				    			<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+				    			<h3>Maggie Scott</h3>
+				    			<h4>Mason-Elliot Inc.</h4>
+				    			<p>"Working with Wedge was awesome - we knew that they would offer us a very strong framework and that it would be handled in a very organized and professional way. I can't recommend them enough."</p>
+				    		</div>
+						<!-- /Testimonials Vertical -->
+						<!-- /Column -->
+							</div>
+						</div>
+				    </div>
+
+				    <div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Services</h2>
+			    		</div>
+				   		<p class="bgpl-variables">.mod-services</p>
+				    	<hr class="hr-boldgrid" />
+
+						<!-- Column -->
+				    	<div class="row">
+				    		<div class="col-md-4">
+
+				    	<!-- Services -->
+				    		<div class=".mod-services">
+				    			<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+				    			<h3>A Different Approach</h3>
+				    			<div class="row">
+				    				<div class="col-md-12">
+				    					<hr />
+				    				</div>
+				    			</div>
+				    			<p>"After entering real estate over 30 years ago, Krista realized that she didn't like the status quo in the realty company she was working with. She wanted to spend time with her clients, to learn about their needs, wants and dreams. The look on her clients' faces when she showed them the perfect home was well worth the extra hours it took to locate it."</p>
+				    			<p class="p-button-primary"><a class="button-primary" href="#">Read More</a></p>
+				    		</div>
+						<!-- /Services -->
+						<!-- /Column -->
+							</div>
+						</div>
+				    </div>
+
+				    <div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Listings</h2>
+			    		</div>
+				   		<p class="bgpl-variables">.mod-listings</p>
+				    	<hr class="hr-boldgrid" />
+
+				    	<!-- Listings -->
+				    		<div class="mod-listings">
+				    			<div class="row">
+				    				<div class="col-md-3">
+				    					<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+				    				</div>
+				    				<div class="col-md-9">
+				    					<h3>Concert At The Red Hat</h3>
+				    					<p>Friday, May 15th</p>
+				    					<p>Doors Open at 6:00 PM</p>
+				    					<p>500 South McDowell Street, Raleigh, North Carolina</p>
+				    				</div>
+				    			</div>
+				    		</div>
+						<!-- /Listings -->
+				    </div>
+
+				    <div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Dividers</h2>
+			    		</div>
+				   		<p class="bgpl-variables">.mod-divider</p>
+				    	<hr class="hr-boldgrid" />
+
+				    	<!-- Dividers -->
+				    		<div class="mod-divider">
+				    			<h2>Our Services</h2>
+				    		</div>
+						<!-- /Dividers -->
+				    </div>
 			    </div>
 
 			    <div role="tabpanel" class="tab-pane" id="gridblocks">
@@ -435,39 +561,165 @@ $configs = $boldgrid_theme_framework->get_configs();
 			    	</div>
 
 			    	<div class="bgpl-section">
-			    		<div class="bgpl-title-background background-bootstrap">
-			    			<h2 class="bgpl-title">Example</h2>
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Section Primary</h2>
 			    		</div>
-				   		<p class="bgpl-variables">.example</p>
-				    	<hr class="hr-bootstrap" />
+				   		<p class="bgpl-variables">.boldgrid-section, .background-primary</p>
+				    	<hr class="hr-boldgrid" />
 
-				    	<!-- Example -->
-				    		<p>Example</p>
-						<!-- /Example -->
+				    	<!-- Section Primary -->
+				    		<div class="boldgrid-section background-primary">
+				    			<div class="container">
+				    				<div class="row">
+				    					<div class="col-xs-12 col-sm-8 col-md-8">
+				    						<!-- Paragraphs -->
+									    		<p>Donec sit amet facilisis lacus, ac cursus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur ipsum, in laoreet metus. Phasellus vehicula massa augue, vitae ultrices ante porta ut. Donec mollis pharetra mi, at elementum diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi orci orci, viverra id vehicula quis, commodo non orci.</p>
+												<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada erat aliquet interdum bibendum. Donec lacinia facilisis laoreet. Praesent blandit iaculis elit vel bibendum. Duis ipsum quam, sollicitudin eget egestas eget, condimentum consectetur nisl. Nunc neque dui, aliquet sit amet libero non, accumsan rutrum quam. Nam placerat diam nulla, a placerat urna accumsan cursus.</p>
+									    	<!-- /Paragraphs -->
+									    	<!-- Unordered Lists -->
+												<ul>
+													<li>Lorem ipsum dolor sit amet</li>
+													<li>Consectetur adipiscing elit</li>
+													<li>Integer molestie lorem at massa</li>
+													<li>Facilisis in pretium nisl aliquet</li>
+													<li>Nulla volutpat aliquam velit</li>
+													<ul>
+														<li>Phasellus iaculis neque</li>
+														<li>Purus sodales ultricies</li>
+														<li>Vestibulum laoreet portitor sem</li>
+														<li>Ac tristique libero volutpat at</li>
+													</ul>
+													<li>Faucibus porta lacus fringilla vel</li>
+													<li>Aenean sit amet erat nunc</li>
+													<li>Eget portitor lorem</li>
+												</ul>
+											<!-- /Unordered Lists -->
+				    					</div>
+				    					<div class="col-xs-12 col-sm-4 col-md-4">
+				    						<!-- Images -->
+												<p><img src="https://source.unsplash.com/150x250/?pineapple" /></p>
+												<!-- Horizontal Rules -->
+													<hr />
+												<!-- /Horizontal Rules -->
+									    		<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+									    		<!-- Horizontal Rules -->
+													<hr />
+												<!-- /Horizontal Rules -->
+									    		<p><img src="https://source.unsplash.com/250x150/?pineapple" /></p>
+									    	<!-- /Images -->
+				    					</div>
+				    				</div>
+				    			</div>
+				    		</div>
+						<!-- /Section Primary -->
 				    </div>
 
-				    <div class="bgpl-section">
-			    		<div class="bgpl-title-background background-bootstrap">
-			    			<h2 class="bgpl-title">Example</h2>
+					<div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Section Secondary</h2>
 			    		</div>
-				   		<p class="bgpl-variables">.example</p>
-				    	<hr class="hr-bootstrap" />
+				   		<p class="bgpl-variables">.boldgrid-section, .background-secondary</p>
+				    	<hr class="hr-boldgrid" />
 
-				    	<!-- Example -->
-				    		<p>Example</p>
-						<!-- /Example -->
+				    	<!-- Section Secondary -->
+				    		<div class="boldgrid-section background-secondary">
+				    			<div class="container">
+				    				<div class="row">
+				    					<div class="col-xs-12 col-sm-8 col-md-8">
+				    						<!-- Paragraphs -->
+									    		<p>Donec sit amet facilisis lacus, ac cursus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur ipsum, in laoreet metus. Phasellus vehicula massa augue, vitae ultrices ante porta ut. Donec mollis pharetra mi, at elementum diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi orci orci, viverra id vehicula quis, commodo non orci.</p>
+												<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada erat aliquet interdum bibendum. Donec lacinia facilisis laoreet. Praesent blandit iaculis elit vel bibendum. Duis ipsum quam, sollicitudin eget egestas eget, condimentum consectetur nisl. Nunc neque dui, aliquet sit amet libero non, accumsan rutrum quam. Nam placerat diam nulla, a placerat urna accumsan cursus.</p>
+									    	<!-- /Paragraphs -->
+									    	<!-- Unordered Lists -->
+												<ul>
+													<li>Lorem ipsum dolor sit amet</li>
+													<li>Consectetur adipiscing elit</li>
+													<li>Integer molestie lorem at massa</li>
+													<li>Facilisis in pretium nisl aliquet</li>
+													<li>Nulla volutpat aliquam velit</li>
+													<ul>
+														<li>Phasellus iaculis neque</li>
+														<li>Purus sodales ultricies</li>
+														<li>Vestibulum laoreet portitor sem</li>
+														<li>Ac tristique libero volutpat at</li>
+													</ul>
+													<li>Faucibus porta lacus fringilla vel</li>
+													<li>Aenean sit amet erat nunc</li>
+													<li>Eget portitor lorem</li>
+												</ul>
+											<!-- /Unordered Lists -->
+				    					</div>
+				    					<div class="col-xs-12 col-sm-4 col-md-4">
+				    						<!-- Images -->
+												<p><img src="https://source.unsplash.com/150x250/?pineapple" /></p>
+												<!-- Horizontal Rules -->
+													<hr />
+												<!-- /Horizontal Rules -->
+									    		<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+									    		<!-- Horizontal Rules -->
+													<hr />
+												<!-- /Horizontal Rules -->
+									    		<p><img src="https://source.unsplash.com/250x150/?pineapple" /></p>
+									    	<!-- /Images -->
+				    					</div>
+				    				</div>
+				    			</div>
+				    		</div>
+						<!-- /Section Secondary -->
 				    </div>
 
-				    <div class="bgpl-section">
-			    		<div class="bgpl-title-background background-bootstrap">
-			    			<h2 class="bgpl-title">Example</h2>
+					<div class="bgpl-section">
+			    		<div class="bgpl-title-background background-boldgrid">
+			    			<h2 class="bgpl-title">Section Tertiary</h2>
 			    		</div>
-				   		<p class="bgpl-variables">.example</p>
-				    	<hr class="hr-bootstrap" />
+				   		<p class="bgpl-variables">.boldgrid-section, .background-tertiary</p>
+				    	<hr class="hr-boldgrid" />
 
-				    	<!-- Example -->
-				    		<p>Example</p>
-						<!-- /Example -->
+				    	<!-- Section Tertiary -->
+				    		<div class="boldgrid-section background-tertiary">
+				    			<div class="container">
+				    				<div class="row">
+				    					<div class="col-xs-12 col-sm-8 col-md-8">
+				    						<!-- Paragraphs -->
+									    		<p>Donec sit amet facilisis lacus, ac cursus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur ipsum, in laoreet metus. Phasellus vehicula massa augue, vitae ultrices ante porta ut. Donec mollis pharetra mi, at elementum diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi orci orci, viverra id vehicula quis, commodo non orci.</p>
+												<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada erat aliquet interdum bibendum. Donec lacinia facilisis laoreet. Praesent blandit iaculis elit vel bibendum. Duis ipsum quam, sollicitudin eget egestas eget, condimentum consectetur nisl. Nunc neque dui, aliquet sit amet libero non, accumsan rutrum quam. Nam placerat diam nulla, a placerat urna accumsan cursus.</p>
+									    	<!-- /Paragraphs -->
+									    	<!-- Unordered Lists -->
+												<ul>
+													<li>Lorem ipsum dolor sit amet</li>
+													<li>Consectetur adipiscing elit</li>
+													<li>Integer molestie lorem at massa</li>
+													<li>Facilisis in pretium nisl aliquet</li>
+													<li>Nulla volutpat aliquam velit</li>
+													<ul>
+														<li>Phasellus iaculis neque</li>
+														<li>Purus sodales ultricies</li>
+														<li>Vestibulum laoreet portitor sem</li>
+														<li>Ac tristique libero volutpat at</li>
+													</ul>
+													<li>Faucibus porta lacus fringilla vel</li>
+													<li>Aenean sit amet erat nunc</li>
+													<li>Eget portitor lorem</li>
+												</ul>
+											<!-- /Unordered Lists -->
+				    					</div>
+				    					<div class="col-xs-12 col-sm-4 col-md-4">
+				    						<!-- Images -->
+												<p><img src="https://source.unsplash.com/150x250/?pineapple" /></p>
+												<!-- Horizontal Rules -->
+													<hr />
+												<!-- /Horizontal Rules -->
+									    		<p><img src="https://source.unsplash.com/200x200/?pineapple" /></p>
+									    		<!-- Horizontal Rules -->
+													<hr />
+												<!-- /Horizontal Rules -->
+									    		<p><img src="https://source.unsplash.com/250x150/?pineapple" /></p>
+									    	<!-- /Images -->
+				    					</div>
+				    				</div>
+				    			</div>
+				    		</div>
+						<!-- /Section Tertiary -->
 				    </div>
 			    </div>
 
